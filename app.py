@@ -1,3 +1,12 @@
+import mimetypes
+
+mimetypes.add_type("application/javascript", ".js")
+mimetypes.add_type("text/css", ".css")
+
+# --- 이 아래부터 기존 코드 시작 ---
+import math
+import os
+import time
 # -*- coding: utf-8 -*-
 """
 TruckSaver AI
